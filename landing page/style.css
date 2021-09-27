@@ -1,0 +1,54 @@
+body {
+    margin-right: 20%;
+    margin-left: 20%;
+}
+
+.navcontainer {
+    display: flex;
+    justify-content: space-around;
+}
+
+.homecontainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.button-home {
+    color: white;
+    background-color: blue;
+}
+
+.about {
+    color: blue;
+}
+
+.contact {
+    color: blue;
+}
+
+.heading-container {
+    background-color: rgb(238, 236, 236);
+    text-align: center;
+}
+
+.sign-button {
+    color: white;
+    background-color: green;
+    align-items: center;
+}
+
+.launch-button {
+    color: white;
+    background-color: blue;
+    align-items: center;
+}
+
+.right-left {
+    display: flex;
+}
+
+@media(max-width: 510px) {
+    .navcontainer {
+        display: block;
+    }
+}
